@@ -1,0 +1,9 @@
+*.class
+.gradle/
+out/
+gradle-wrapper.jar
+gradle-wrapper.properties
+settings.gradle
+gradlew.bat
+gradlew
+build.gradle
