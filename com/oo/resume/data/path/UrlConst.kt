@@ -8,7 +8,7 @@ package com.oo.resume.data.path
  */
 interface UrlConst {
     companion object {
-        const val RESUME_PARAMS_RESUME_ID = "resumeIdX"
+        const val RESUME_PARAMS_RESUME_ID = "resumeId"
         const val RESUME_PREFIX = "/api/resume"
         const val RESUME_LIST = "/list"
         const val RESUME_DELETE = "/delete/{$RESUME_PARAMS_RESUME_ID}"
