@@ -12,6 +12,26 @@ interface UrlConst {
         const val RESUME_PREFIX = "/api/resume"
         const val RESUME_LIST = "/list"
         const val RESUME_DELETE = "/delete/{$RESUME_PARAMS_RESUME_ID}"
+        /**
+         * 简历详情
+         * Method:GET
+         *
+         * Response
+         * @see com.oo.resume.data.response.ResumeDTO
+         */
+        const val RESUME_DETAIL = "/detail/{$RESUME_PARAMS_RESUME_ID}"
+
+        /**
+         * 更新简历或者新建简历
+         * Method:POST
+         *
+         * Request
+         * @see com.oo.resume.data.response.ResumeDTO}
+         *
+         * Response
+         * @see com.oo.resume.data.response.ResumeDTO}
+         */
+        const val RESUME_CREATE_OR_UPDATE = "/createOrUpdate"
 
         const val REVIEW_PARAM_SHORT_LINK = "shortLink"
         const val REVIEW_PREFIX = "/review"
