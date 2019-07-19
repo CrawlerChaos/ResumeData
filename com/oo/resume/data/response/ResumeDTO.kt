@@ -30,4 +30,6 @@ class ResumeDTO {
 
     var education: List<EducationDTO>? = null//教育经历
 
+    var id: Long? = null//主键 更新带入主键，添加不要这个值
+
 }
