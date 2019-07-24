@@ -41,5 +41,15 @@ interface AccountUrl {
          *
          */
         const val PATH_UPDATE = "/update"
+        /**
+         * 修改密码
+         * Method:PUT
+         *
+         * Request:[com.oo.resume.data.request.ResetPasswordRequest]
+         *
+         * Response:[Boolean]
+         *
+         */
+        const val PATH_RESET_PASSWORD = "/reset_passwod"
     }
 }
